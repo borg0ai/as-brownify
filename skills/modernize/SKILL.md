@@ -1,7 +1,7 @@
 ---
 name: modernize
 description: >-
-  For getting old prs up to date. Use when asked to rebase a pr or
+  Use when the user asks to update or rebase an old pull request, or says
   "modernize".
 ---
 

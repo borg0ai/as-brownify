@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "brownify-marketplace",
+  "description": "Brownify pull request lifecycle skills.",
+  "owner": {
+    "name": "Borg0 AI"
+  },
+  "plugins": [
+    {
+      "name": "brownify",
+      "source": {
+        "source": "github",
+        "repo": "borg0ai/as-brownify"
+      },
+      "description": "GitHub pull request lifecycle skills for review, filing, monitoring, and handoff.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Borg0 AI"
+      },
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "brownify",
+  "version": "0.1.0",
+  "description": "GitHub pull request lifecycle skills for review, filing, monitoring, and handoff.",
+  "author": {
+    "name": "Borg0 AI"
+  },
+  "repository": "https://github.com/borg0ai/as-brownify",
+  "license": "MIT",
+  "skills": "./skills/"
+}

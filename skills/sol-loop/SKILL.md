@@ -1,6 +1,6 @@
 ---
 name: sol-loop
-description: Use when the user says "sol loop".
+description: Use when the user requests iterative GPT Sol review before or after a pull request, or says "sol loop".
 ---
 
 # sol-loop

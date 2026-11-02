@@ -1,6 +1,6 @@
 ---
 name: full-send
-description: Trigger this if the user says 'full send'.
+description: Use when the user explicitly asks to take a change through proof, review, PR, CI, and merge, or says 'full send'.
 ---
 
 # Full Send

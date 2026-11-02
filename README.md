@@ -1,9 +1,7 @@
-# tstack
+# Brownify
 
-The agent skills I use every day, cleaned up so anyone can use them. They work
-in Claude Code and Codex. Some use [T3 Code](https://github.com/pingdotgg/t3code)
-features when they are available and fall back to native tools when they are
-not.
+Brownify packages GitHub pull request lifecycle skills for Claude Code and
+Codex. Invoke skills with their `brownify:` namespace to avoid collisions.
 
 ## Skills
 
@@ -22,16 +20,34 @@ not.
 Some skills call others. Install the ones they need too:
 
 - `full-send` uses `sol-loop`, `file-pr`, and `babysit-pr`.
-- `full-stop` uses `full-send`.
+- `full-stop` uses `sol-loop`, `file-pr`, and `babysit-pr`.
 - `takeover` uses `modernize`, `file-pr`, `babysit-pr`, and `leaving-pr-comments`.
 - `file-pr`, `babysit-pr`, and `modernize` use `leaving-pr-comments`.
 
 ## Install
 
+Install plugin to keep skill names scoped under `brownify`.
+
+### Claude Code
+
 ```bash
-git clone https://github.com/t3dotgg/tstack
-cp -R tstack/skills/* ~/.claude/skills/   # Claude Code
-cp -R tstack/skills/* ~/.codex/skills/    # Codex
+claude plugin marketplace add borg0ai/as-brownify
+claude plugin install brownify@brownify-marketplace
+```
+
+Invoke a skill as `/brownify:full-send`.
+
+### Codex
+
+```bash
+codex plugin marketplace add borg0ai/as-brownify
+codex plugin add brownify@brownify-marketplace
+```
+
+Invoke a skill as `$brownify:full-send`.
+
+Direct skill installation remains available through `npx skills`, but it
+installs skills without the `brownify:` namespace.
 ```
 
 ## Requirements

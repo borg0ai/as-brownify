@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "skillId": "full-send",
+  "channel": "stable",
+  "version": "0.1.0",
+  "source": {
+    "repository": "https://github.com/borg0ai/as-brownify"
+  },
+  "updateManifestUrl": "https://raw.githubusercontent.com/borg0ai/as-brownify/main/skills/full-send/skill-release.json"
+}

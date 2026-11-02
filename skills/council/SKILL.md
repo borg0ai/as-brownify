@@ -1,6 +1,6 @@
 ---
 name: council
-description: Trigger this if the user says 'council'.
+description: Use when the user requests review or a decision from multiple independent model providers, or explicitly says 'council'.
 ---
 
 # Council

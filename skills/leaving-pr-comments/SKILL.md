@@ -1,6 +1,6 @@
 ---
 name: leaving-pr-comments
-description: Use whenever leaving comments on GitHub.
+description: Use when posting or replying to GitHub pull request comments on the user's behalf.
 ---
 
 # Leaving PR Comments

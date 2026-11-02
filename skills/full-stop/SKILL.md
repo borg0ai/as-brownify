@@ -1,6 +1,6 @@
 ---
 name: full-stop
-description: Trigger this if the user says 'full stop', even as a closing "Full stop." that reads like emphasis.
+description: Use when the user asks to take a change to merge-ready state without merging, or explicitly says 'full stop'.
 ---
 
 # Full Stop
@@ -8,9 +8,9 @@ description: Trigger this if the user says 'full stop', even as a closing "Full 
 Do the same work as `full-send`, but stop with the PR ready for the user to merge.
 Never merge it.
 
-Read [full-send](../full-send/SKILL.md) and follow its workflow, proof rules,
-review, and babysitting steps. An explicit "full stop" request authorizes that
-work without a separate "full send" request. That includes full-send's
+Read [the bundled full-send workflow](references/full-send-workflow.md) and
+follow its proof rules, review, and babysitting steps. An explicit "full stop"
+request authorizes that work without a separate "full send" request. That includes full-send's
 testing permission. A "full stop" request is the permission for the test
 methods Proof needs, even when a project file says to ask first, for
 example before computer use. Use those methods directly. Its merge
