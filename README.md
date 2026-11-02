@@ -3,6 +3,12 @@
 Brownify packages GitHub pull request lifecycle skills for Claude Code and
 Codex. Invoke skills with their `brownify:` namespace to avoid collisions.
 
+## Latest release
+
+Version `0.1.0` publishes nine pull request lifecycle skills for Claude Code
+and Codex. Plugin installs use the `brownify:` namespace. Direct `npx skills`
+installs use unscoped skill names.
+
 ## Skills
 
 | Skill | Say | What it does |
@@ -48,7 +54,6 @@ Invoke a skill as `$brownify:full-send`.
 
 Direct skill installation remains available through `npx skills`, but it
 installs skills without the `brownify:` namespace.
-```
 
 ## Requirements
 
